@@ -1,0 +1,101 @@
+body{ 
+    background:linear-gradient(135deg,violet,indigo,blue,green,yellow,orange,red);
+}
+th.diagnl
+{
+    background: linear-gradient(to left bottom,blue 0%,rgba(170, 212, 209, 0.685) 49.9%,black 50%,black 51%,rgba(170, 212, 209, 0.685) 51.1%,blue 100%);
+}
+td.diagnl{
+    background: linear-gradient(to left bottom, black 0%,black 49.9%,black 50%,white 51%,black 51.1%,black 100%);
+}
+td.colr{
+    background: linear-gradient(to right top,blue 0%,rgba(170, 212, 209, 0.685) 80%); 
+}
+center{
+    height: 150px;
+}
+.change{
+    font-family:fantasy;
+    font-size: 80px;
+    margin-top: 10px;
+    font-style:italic;
+    color:#fff;
+    text-shadow: -1px 1px 0 #4db1bc,
+                  1px 1px 0 #4db1bc,
+                 1px -1px 0 #4db1bc,
+                -1px -1px 0 #4db1bc;
+    transform: rotate(-45deg);
+    position: absolute;
+    height: 250px;
+    width: 10px;
+    animation: glow 2s ease-in-out infinite alternate;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.change:hover {
+    transform:rotate(0deg);   
+}
+
+@keyframes glow{
+    from {
+        text-shadow: 0 0 20px #2d9da9;
+      }
+      to {
+        text-shadow: 0 0 30px #34b3c1, 0 0 10px #4dbbc7;
+      }
+}
+
+.context{
+    background-color: #000;
+    position: absolute;
+    margin-left: 82.8%;
+    margin-top: 150px;
+    width: 250px;
+    height: 643px;
+    text-shadow: -1px 1px 0 #4dbbc7,
+                  1px 1px 0 #4dbbc7,
+                 1px -1px 0  #4dbbc7,
+                -1px -1px 0 #4dbbc7;       
+}
+
+marquee#mark{
+    border: #4dbbc7 5px solid;
+    color: #000;
+    font-size: large;
+}
+
+ul li::before {
+  content: "\2022";
+  color: #000;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+
+.context>p {
+    border: #4dbbc7 3px solid; 
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: relative;
+    font-family: sans-serif;
+    font-weight:100;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 4px;
+    color: #000;
+    animation: blink 0.8s linear infinite alternate; 
+ }  
+ @keyframes blink{
+  from {
+      text-shadow: -1px 1px 0 #4dbbc7,
+                    1px 1px 0 #4dbbc7,
+                    1px -1px 0  #4dbbc7,
+                    -1px -1px 0 #4dbbc7;
+    }
+    to {
+      text-shadow: 0 0 30px #34b3c1, 0 0 10px #4dbbc7;
+    }
+}

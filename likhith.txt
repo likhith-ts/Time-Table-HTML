@@ -1,0 +1,255 @@
+This assignment is done by U.Likhith (CSE-BDA-A).
+
+This assignment include the following files:
+1.timetable.html
+2.context.css
+3.srm.png
+4.Srmseal.png
+kindly ensure all files are received and please save all the above files in one folder.
+
+SOURCE CODE:
+⁕HTML PART:
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>time table</title>
+    <link rel="icon" href="Srmseal.png" type="image/icon" />
+    <link rel="stylesheet" href="context.css" />
+</head>
+<body  text="white" >
+    <div class="change">
+            <p>TIME<br>TABLE</p>  
+    </div>
+    <div class="context"> 
+        <p >IMPORTANT NOTE!</p>
+        <marquee id="mark"  direction="up" width="240px"  height="555.5px">
+            <ul >
+                <li>Classes are suspended from 16/12/2020 to 03/01/2021.</li><br>
+                <li>Regular online classes will be commenced from 04/01/2021 onwards.</li><br>
+                <li>Remaining exams will be conducted from 6:15pm to 7:45pm during the same date as given before.</li>
+            </ul>
+        </marquee>
+    </div>
+    
+    <center>
+        <img src="srm.png"> 
+    </center>
+   
+    <table border="5" cellspacing="10px" align="center" cellpadding="5" bgcolor="black" > 
+
+        <thead>
+            <tr>
+                <th colspan="8" style="background-color: blue; font-family: cursive;font-size: x-large ;">
+                    TIME TABLE:CSE BDA-A 1<sup>ST</sup>yr. 
+                </th> 
+            </tr>
+        </thead>
+
+        <tr style="background: linear-gradient(blue,rgba(170, 212, 209, 0.685));"> 
+            <th class="diagnl" height="50" width="100">
+                <p style="text-align: end;">Period</p> 
+                <p style="text-align: start;">Day</p>
+            </th> 
+            <th align="center" height="50" width="100"> 
+                <b>I<br>9:30-10:40</b> 
+            </th> 
+            <th align="center" height="50" width="100"> 
+                II<br>10:40-11:00 
+            </th> 
+            <th align="center" height="50" width="100"> 
+                <b>III<br>11:00-12:00</b> 
+            </th> 
+            <th align="center" height="50" width="100"> 
+                <b>12:00-1:00</b> 
+            </th>  
+            <th align="center" height="50" width="100"> 
+                <b>IV<br>1:00-2:00</b> 
+            </th> 
+            <th align="center" height="50" width="100"> 
+                <b>V<br>2:00-3:00</b> 
+            </th> 
+            <th align="center" height="50" width="100"> 
+                <b>VI<br>3:00-3:30</b> 
+            </th>
+        </tr> 
+            
+        <tr> 
+            <td align="center" height="50" class="colr"> 
+                <b>Monday</b>
+            </td> 
+            <td align="center" height="50" style="background: radial-gradient(greenyellow,green);">VAC</td> 
+            <td rowspan="6" align="center" height="50" style="background: radial-gradient(blue 50%,rgba(170, 212, 209, 0.685));" >
+                <h2>B<br>R<br>E<br>A<br>K</h2>
+            </td> 
+            <td align="center" height="50" style="background: radial-gradient(orange,red);">ENGLISH<br>(18LEH101J)</td> 
+            <td rowspan="6" align="center" style="background: radial-gradient(blue 60%,rgba(170, 212, 209, 0.685));"> 
+                <h2>L<br>U<br>N<br>C<br>H<br> <br>H<br>O<br>U<br>R</h2>
+            </td>
+            <td align="center" height="50" style="background: radial-gradient( silver,black); color: black;">BEEE<br>(18EES101J)</td>
+            <td colspan="2" align="center" height="50" style="background: radial-gradient(crimson 50%,white);">PHY LAB<br>(18PYB103J)</td>
+        </tr> 
+        
+        <tr>
+            <td align="center" height="50" class="colr"> 
+                <b>Tuesday</b>
+            </td>
+            <td align="center" height="50" style="background: radial-gradient(purple,pink);">PSP<br>(18PDM101L)</td>
+            <td align="center" height="50" style="background: radial-gradient(violet,indigo);">CI<br>(18LEM101T)</td>
+            <td align="center" height="50" style="background: radial-gradient(silver,black); color: black;">BEEE<br>(18EES101J)</td>
+            <td colspan="2" align="center" height="50" style="background: radial-gradient(crimson 50%,white);">PHYSICS<br>(18PYB103J)</td>
+        </tr>
+
+        <tr>
+            <td align="center" height="50" class="colr"> 
+                <b>Wednesday</b>
+            </td>
+            <td align="center" height="50" style="background: radial-gradient(silver,black); color: black;">BEEE<br>(18EES101J)</td>
+            <td align="center" height="50" style="background: radial-gradient(yellow,red); color: black;">MATHS<br>(18MAB101T)</td>
+            <td align="center" height="50" style="background: radial-gradient(orange,red);">ENGLISH<br>(18LEH101J)</td> 
+            <td colspan="2" align="center" height="50" style="background: radial-gradient(silver,black); color: black;">BEEE LAB<br>(18EES101J)</td>
+        </tr>
+
+        <tr>
+            <td align="center" height="50" class="colr"> 
+                <b>Thursday</b>
+            </td>
+            <td align="center" height="50" style="background: radial-gradient(orange,red);">ENGLISH<br>(18LEH101J)</td>
+            <td class="diagnl" height="50"></td>
+            <td colspan="3" align="center" height="50" style="background: radial-gradient(red,brown); ">WORKSHOP<br>(18MES103L)</td>
+        </tr>
+
+        <tr>
+            <td align="center" height="50" class="colr"> 
+                <b>Friday</b>
+            </td>
+            <td align="center" height="50" style="background: radial-gradient(crimson 50%,white);">PHYSICS<br>(18PYB103J)</td>
+            <td class="diagnl" height="50"></td>
+            <td align="center" height="50" style="background: radial-gradient(yellow,red); color: black;">MATHS<br>(18MAB101T)</td>
+            <td colspan="2" align="center" height="50"  style="background: radial-gradient(red 30%,yellow);">YOGA<br>(18GNM101L)</td>
+        </tr>
+
+        <tr>
+            <td align="center" height="50" class="colr"> 
+                <b>Saturday</b>
+            </td>
+            <td align="center" height="50" style="background: radial-gradient(yellow,red); color: black;">MATHS<br>(18MAB101T)</td>
+            <td class="diagnl" height="50"></td>
+            <td align="center" height="50" style="background: radial-gradient(crimson 50%,white);">PHYSICS<br>(18PYB103J)</td>
+            <td class="diagnl" height="50"></td>
+            <td class="diagnl" height="50"></td>
+        </tr>
+
+        <tfoot>
+            <tr  style="background: radial-gradient(black 50%,white);">
+                <th colspan="8">done by U.LIKHITH &copy;</th>
+            </tr>
+        </tfoot>
+
+    </table> 
+</body>
+</html>
+
+⁕CSS PART:
+body{ 
+    background:linear-gradient(135deg,violet,indigo,blue,green,yellow,orange,red);
+}
+th.diagnl
+{
+    background: linear-gradient(to left bottom,blue 0%,rgba(170, 212, 209, 0.685) 49.9%,black 50%,black 51%,rgba(170, 212, 209, 0.685) 51.1%,blue 100%);
+}
+td.diagnl{
+    background: linear-gradient(to left bottom, black 0%,black 49.9%,black 50%,white 51%,black 51.1%,black 100%);
+}
+td.colr{
+    background: linear-gradient(to right top,blue 0%,rgba(170, 212, 209, 0.685) 80%); 
+}
+center{
+    height: 150px;
+}
+.change{
+    font-family:fantasy;
+    font-size: 80px;
+    margin-top: 10px;
+    font-style:italic;
+    color:#fff;
+    text-shadow: -1px 1px 0 #4db1bc,
+                  1px 1px 0 #4db1bc,
+                 1px -1px 0 #4db1bc,
+                -1px -1px 0 #4db1bc;
+    transform: rotate(-45deg);
+    position: absolute;
+    height: 250px;
+    width: 10px;
+    animation: glow 2s ease-in-out infinite alternate;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.change:hover {
+    transform:rotate(0deg);   
+}
+
+@keyframes glow{
+    from {
+        text-shadow: 0 0 20px #2d9da9;
+      }
+      to {
+        text-shadow: 0 0 30px #34b3c1, 0 0 10px #4dbbc7;
+      }
+}
+
+.context{
+    background-color: #000;
+    position: absolute;
+    margin-left: 82.8%;
+    margin-top: 150px;
+    width: 250px;
+    height: 643px;
+    text-shadow: -1px 1px 0 #4dbbc7,
+                  1px 1px 0 #4dbbc7,
+                 1px -1px 0  #4dbbc7,
+                -1px -1px 0 #4dbbc7;       
+}
+
+marquee#mark{
+    border: #4dbbc7 5px solid;
+    color: #000;
+    font-size: large;
+}
+
+ul li::before {
+  content: "\2022";
+  color: #000;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+
+.context>p {
+    border: #4dbbc7 3px solid; 
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: relative;
+    font-family: sans-serif;
+    font-weight:100;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 4px;
+    color: #000;
+    animation: blink 0.8s linear infinite alternate; 
+ }  
+
+ @keyframes blink{
+  from {
+      text-shadow: -1px 1px 0 #4dbbc7,
+                    1px 1px 0 #4dbbc7,
+                    1px -1px 0  #4dbbc7,
+                    -1px -1px 0 #4dbbc7;
+    }
+    to {
+      text-shadow: 0 0 30px #34b3c1, 0 0 10px #4dbbc7;
+    }
+}
